@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Campus Experience</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 300px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; }
+        label, input { display: block; width: 100%; margin-top: 10px; }
+    </style>
 </head>
 <body>
-    <form>
-        
-    </form>
-    
+    <div class="container">
+        <h2>Campus Experience Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <label>Location:</label>
+            <input type="checkbox" id="location" name="location"> <label for="location">On Campus</label>
+            
+            <label>Campus:</label>
+            <input type="checkbox" id="campus" name="campus"> <label for="campus">Main Campus</label>
+
+            <label>Gym</label>
+            <input type="checkbox" id="gym" name="gym">
+
+            <label>Experience</label>
+            <input type="textarea">            
+            
+            <button type="submit" style="margin-top: 15px;">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
