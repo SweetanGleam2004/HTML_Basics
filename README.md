@@ -1,1 +1,1 @@
-visit my site [[Ask Media Solution]]([url](https://askmediasolution.com/))
+visit my site [Ask Media Solution](https://askmediasolution.com/)
